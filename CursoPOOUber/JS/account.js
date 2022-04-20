@@ -1,5 +1,5 @@
-class Account {
-    constructor(name, document) {
+class account extends Account {
+    constructor(name, document, email, password) {
     this.id;
     this.name = name;
     this.document = document;
